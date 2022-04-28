@@ -1,0 +1,245 @@
+.fsp-picker-holder {
+    background-color: white;
+
+    .fsp-picker {
+        .fsp-modal {
+            span {
+                background-color: white;
+            }
+
+            .fst-sidebar__option {
+                background-color: rgb(8, 72, 131);
+
+                span {
+                    background-color: rgb(8, 72, 131);
+                }
+            }
+
+            .fsp-modal__sidebar {
+                background-color: white;
+
+
+                .fsp-source-list {
+                    background-color: white;
+
+                    .fsp-source-list__item {
+                        background-color: white;
+                    }
+                }
+            }
+
+            .fsp-modal__body {
+                .fsp-content {
+                    background-color: white;
+
+                    .fsp-drop-area-container {
+                        background-color: rgb(8, 72, 131);
+
+                        .fsp-select-labels {
+                            background-color: white;
+
+                            div {
+                                background-color: white;
+                            }
+                        }
+                    }
+                }
+
+                .fsp-content {
+                    div {
+                        background-color: white;
+                    }
+
+                    .fsp-transformer {
+                        background-color: white;
+
+                        .fsp-footer {
+                            .fsp-footer__nav {
+                                div {
+                                    span {
+                                        color: black;
+                                    }
+
+                                }
+
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .fsp-picker__brand-container {
+            display: none;
+        }
+
+    }
+}
+
+
+.order {
+    height: auto !important;
+    width: 100% !important;
+    margin-bottom: 7% !important;
+    padding: 0 3%;
+    margin-top: 3.5rem !important;
+
+    .header {
+        text-align: center;
+        margin: 4% 3%;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .infoPayment {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .mainOrder {
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .my-auto {
+            margin-top: 20px !important;
+
+            h5 {
+                text-align: center;
+            }
+
+        }
+
+        .errorReceipt {
+            padding-top: .5rem !important;
+            padding-bottom: .5rem !important;
+            margin-bottom: .5rem !important;
+            background-color: #ff8e98 !important;
+            color: rgb(0, 0, 0);
+            border: #a30000 3px solid !important;
+        }
+
+        .successReceipt {
+            padding-top: .5rem !important;
+            padding-bottom: .5rem !important;
+            margin-bottom: .5rem !important;
+            color: rgb(0, 0, 0);
+            border: #003d03 3px solid !important;
+        }
+
+        .buttonsOrder {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .inputPayment {
+                width: 100%;
+                margin-top: 2%;
+                border: black 3px solid;
+                border-radius: 0;
+                text-align: center;
+            }
+
+            p {
+                font-size: 0.87rem;
+                text-align: center;
+                justify-content: center;
+            }
+
+            .buttonDiv {
+                width: 32%;
+                margin-left: 2rem;
+
+                .button {
+
+                    width: 100%;
+                    height: 100%;
+                    background-color: #324B6A;
+                    border: black 3px solid;
+                    box-shadow: black 3px 3px;
+                    color: azure;
+                    letter-spacing: .08rem;
+                    vertical-align: middle;
+                    padding: 0;
+                }
+            }
+
+
+
+        }
+
+        .orderInfo {
+
+            .orderTable {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: white;
+
+                .h5 {
+                    background-color: white;
+                    text-align: center;
+                    margin-bottom: 1rem;
+                }
+            }
+
+
+            p,
+            b {
+                background-color: white;
+            }
+
+            table,
+            .table-responsive {
+                background-color: white;
+
+            }
+
+            thead {
+
+
+                th,
+                tr {
+                    background-color: rgb(105, 189, 223);
+                    text-align: center;
+                }
+
+            }
+
+            tbody {
+
+                th,
+                tr,
+                td {
+                    background-color: rgb(255, 255, 255);
+                    justify-self: self-end;
+                    align-items: center;
+                    text-indent: initial;
+                    vertical-align: middle;
+                    text-align: justify;
+                }
+
+            }
+
+        }
+
+    }
+}
+
+.buttonURL {  
+    height: 100%;
+    width: 100%;
+    background-color: #324B6A !important;
+    border: black 3px solid !important;
+    box-shadow: black 3px 3px;
+    color: azure !important;
+    letter-spacing: .08rem;
+    vertical-align: middle !important;
+    padding: 0 !important;
+    margin-top: 3%;
+}
